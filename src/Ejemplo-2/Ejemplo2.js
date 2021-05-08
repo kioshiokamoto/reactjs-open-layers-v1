@@ -37,11 +37,12 @@ export default function Ejemplo2() {
 		});
 	}, []);
 	const userAction = () => {
+		//Peru
 		setState({ center: [-8445647.765012862, -1193247.3085863534], zoom: 5 });
 	};
 	return (
 		<div id="map" style={{ width: '100%', height: '600px' }}>
-			<button onClick={(e) => userAction()}>setState on click</button>
+			<button onClick={(e) => userAction()}>Dirigirse a ruta</button>
 		</div>
 	);
 }
